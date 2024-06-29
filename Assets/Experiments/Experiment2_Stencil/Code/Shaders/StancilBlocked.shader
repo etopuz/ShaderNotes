@@ -6,13 +6,16 @@ Shader "Unlit/StancilBlocked"
     }
     SubShader
     {
-        Tags { "Queue"="Geometry" }
+        Tags { "Queue"="Geometry" } // object will be rendered after stencil mask
         Stencil
         {
-            Ref 2
-            Comp NotEqual
-            Pass Keep
+            Ref 2 // reference value
+            Comp NotEqual // if stencil value is not equal to reference value 
+            Pass Keep // keep the pixel else discard
         }
+        
+        // rest of the shader is the same as Unlit/Texture shader
+        
         LOD 100
 
         Pass

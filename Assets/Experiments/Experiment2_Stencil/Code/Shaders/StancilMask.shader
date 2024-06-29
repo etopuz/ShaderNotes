@@ -4,18 +4,20 @@ Shader "Unlit/StancilMask"
     
     SubShader
     {
-        Tags { "Queue"="Geometry-1" }
-        ZWrite Off
-        ColorMask 0
+        Tags { "Queue"="Geometry-1" } // mask will be rendered first in queue
+        ZWrite Off //  ZWrite should be off to see visible items behind mask
+        ColorMask 0 // mask pixel are discarded in the frame buffer
         
         Stencil
         {
-            Ref 2
-            Comp Always
-            Pass Replace
+            Ref 2 // reference value for the stencil buffer
+            Comp always // always pass the stencil test
+            Pass Replace // replace the value in the stencil buffer with the reference value
         }
         
 
+        // rest is unimportant for the mask
+        
         Pass
         {
             CGPROGRAM
