@@ -7,3 +7,5 @@
 [![Go To StencilMask Shader](media/stencil/stencilMask.png)]([https://github.com/etopuz/ShaderNotes/blob/main/Assets/Experiments/Experiment2_Stencil/Code/Shaders/StancilMask.shader])
 
 [![Go To StencilBlocked Shader](media/stencil/stencilBlocked.png)]([https://github.com/etopuz/ShaderNotes/blob/main/Assets/Experiments/Experiment2_Stencil/Code/Shaders/StancilBlocked.shader])
+
+[See Stencil Codes](https://github.com/etopuz/ShaderNotes/tree/main/Assets/Experiments/Experiment2_Stencil/Code/Shaders)
