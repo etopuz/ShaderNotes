@@ -24,6 +24,7 @@
 
 ![Zoom Effect](media/exp004_zoom/ZoomEffect.gif)
 ![Kaleidoscope Shader](media/exp004_zoom/ZoomEffectShader.png)
+\
 [See Zoom Effect Shader Codes](Assets/Experiments/Experiment4_Zoom/Code/Shaders/ZoomShader.shader)
 
 
