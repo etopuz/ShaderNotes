@@ -46,7 +46,7 @@ Many thanks to the creators of these valuable sources.
 ![Fancy Health Bar](media/exp005_healthbar/FancyHealthBar_.gif)
 ![Fancy Health Bar Shader](media/exp005_healthbar/FancyHealthBarCode.png)
 
-My implementation for roundness and border is overcomplex. It can be easily made with SDF. Please watch [this part from Freya Holmér's Shader Video](https://youtu.be/mL8U8tIiRRg?t=4737) if you'd like to see a clean implementation.
+**Note**: My implementation for roundness and border is overcomplex. It can be easily made with SDF. Please watch [this part from Freya Holmér's Shader Video](https://youtu.be/mL8U8tIiRRg?t=4737) if you'd like to see a clean implementation.
 
 [See Full Healthbar Shader Codes](Assets/Experiments/Experiment5_HealthBar/Code/Shaders)
 
