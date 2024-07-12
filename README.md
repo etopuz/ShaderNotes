@@ -1,5 +1,5 @@
 ## Shaders And CG Notes On Unity
-Experiments and notes based on different sources. This page shows the effects and key points of codes. Also for each experiment there is link to see full codes.
+Experiments and notes based on different sources. This page shows the effects and key points of shaders created. Also for each experiment, there is a link to see full codes. Shaders are created in [cg](https://developer.download.nvidia.com/cg/Cg_language.html) for now.
 
 ## Sources
 - [The Unity Shaders Bible](https://www.jettelly.com/store/books/the-unity-shaders-bible/)
