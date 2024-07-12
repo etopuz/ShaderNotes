@@ -2,7 +2,7 @@
 Experiments and notes based on different sources. This page shows the effects and key points of codes. Also for each experiment there is link to see full codes.
 
 ## Sources
-- [Shaders Bible](https://www.jettelly.com/store/books/the-unity-shaders-bible/)
+- [The Unity Shaders Bible](https://www.jettelly.com/store/books/the-unity-shaders-bible/)
 - [Freya Holmér's Shader Video Series](https://www.youtube.com/watch?v=kfM-yu0iQBk&list=PLImQaTpSAdsCnJon-Eir92SZMl7tPBS4Z)
 
 Many thanks to the creators of these valuable sources.
