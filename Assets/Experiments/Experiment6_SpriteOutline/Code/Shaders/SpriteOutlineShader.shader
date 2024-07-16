@@ -78,63 +78,11 @@ Shader "Unlit/SpriteOutlineShader"
 
                 return step(0.001, outline.a) * _OutlineColor * (step(0.99, 1 - mainColor.a)) + mainColor;
 
-                /*outline *= step(0.9999, 1 - mainColor);
-                outline = step(0.001, outline.a);
-                
-                
-                return (outline * _OutlineColor + mainColor);*/
-
             }
 
             
             ENDCG
         }
-        
-/*        Pass
-        {
-            CGPROGRAM
-            #pragma vertex vert
-            #pragma fragment frag
-
-            #include "UnityCG.cginc"
-
-            struct appdata
-            {
-                float4 vertex : POSITION;
-                float2 uv : TEXCOORD0;
-            };
-
-            struct v2f
-            {
-                float2 uv : TEXCOORD0;
-                float4 vertex : SV_POSITION;
-            };
-
-            sampler2D _MainTex;
-            float4 _MainTex_ST;
-            float4 _Color;
-            float _Width;
-
-            v2f vert (appdata v)
-            {
-                v2f o;
-                o.vertex = UnityObjectToClipPos(v.vertex);
-                o.uv = TRANSFORM_TEX(v.uv, _MainTex);
-                return o;
-            }
-
-            fixed4 frag (v2f i) : SV_Target
-            {
-                fixed4 mainColor = tex2D(_MainTex, i.uv);
-                return mainColor;
-                
-                // return mainColor;
-            }
-
-            
-            ENDCG
-        }*/
-
        
     }
 }
