@@ -46,7 +46,6 @@ Shader "Unlit/SpriteOutlineShader"
             float4 _MainTex_ST;
             float4 _OutlineColor;
             float _OutlineWidth;
-            float _OutLineEnabled;
 
             float remap(float value, float min1, float max1, float min2, float max2)
             {
