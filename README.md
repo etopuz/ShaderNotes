@@ -4,6 +4,10 @@ Experiments and notes based on different sources. This page shows the effects an
 ## Sources
 - [The Unity Shaders Bible](https://www.jettelly.com/store/books/the-unity-shaders-bible/)
 - [Freya Holmér's Shader Video Series](https://www.youtube.com/watch?v=kfM-yu0iQBk&list=PLImQaTpSAdsCnJon-Eir92SZMl7tPBS4Z)
+- [Minions Art's Shader Tutorials](https://www.patreon.com/minionsart)
+
+## Assets
+- [FREE Animated Isometric Prototyping Hero by Engvee](https://engvee.itch.io/animated-isometric-prototyping-hero)
 
 Many thanks to the creators of these valuable sources.
 
@@ -49,6 +53,13 @@ Many thanks to the creators of these valuable sources.
 **Note**: My implementation for roundness and border is overcomplex. It can be easily made with SDF. Please watch [this part from Freya Holmér's Shader Video](https://youtu.be/mL8U8tIiRRg?t=4737) if you'd like to see a clean implementation.
 
 [See Full Healthbar Shader Codes](Assets/Experiments/Experiment5_HealthBar/Code/Shaders)
+
+### Experiment_006 Sprite Outline Effect
+
+![Sprite Outline](media/exp006_sprite_outline/SpriteOutline.gif)
+![Sprite Outline Shader](media/exp006_sprite_outline/spriteOutlineShader.png)
+\
+[See Full Sprite Outline Shader Codes](Assets/Experiments/Experiment6_SpriteOutline/Code/Shaders/SpriteOutlineShader.shader)
 
 
 
