@@ -50,9 +50,10 @@ Many thanks to the creators of these valuable sources.
 ![Fancy Health Bar](media/exp005_healthbar/FancyHealthBar_.gif)
 ![Fancy Health Bar Shader](media/exp005_healthbar/FancyHealthBarCode.png)
 
-**Note**: My implementation for roundness and border is overcomplex. It can be easily made with SDF. Please watch [this part from Freya Holmér's Shader Video](https://youtu.be/mL8U8tIiRRg?t=4737) if you'd like to see a clean implementation.
-
 [See Full Healthbar Shader Codes](Assets/Experiments/Experiment5_HealthBar/Code/Shaders)
+\
+\
+**Note**: My implementation for roundness and border is overcomplex. It can be easily made with SDF. Please watch [this part from Freya Holmér's Shader Video](https://youtu.be/mL8U8tIiRRg?t=4737) if you'd like to see a clean implementation.
 
 ### Experiment_006 Sprite Outline Effect
 
@@ -67,6 +68,15 @@ Many thanks to the creators of these valuable sources.
 ![Lambertian Phong Shader](media/exp007_lighting/lambertianPhongShader.png)
 \
 [See Full Lighting codes](Assets/Experiments/Experiment7_Lighting/Code/Shaders)
+\
+\
+**Note 1**: _LightColor0, _WorldSpaceLightPos0 and _WorldSpaceCameraPos are built-in shader variables in Unity. See document [here](https://docs.unity3d.com/Manual/SL-UnityShaderVariables.html).
+\
+**Note 2**: reflect is a cg function that returns the reflection vector given an incidence vector i and a normal vector n. See document [here](https://developer.download.nvidia.com/cg/reflect.html).
+\
+**Note 3**: We used Tags{"LightMode" = "ForwardBase"} in code because we want to use Forward rendering. This rendering target is the default in Unity. See document [here](https://docs.unity3d.com/560/Documentation/Manual/SL-PassTags.html).
+
+
 
 
 
