@@ -61,6 +61,13 @@ Many thanks to the creators of these valuable sources.
 \
 [See Full Sprite Outline Shader Codes](Assets/Experiments/Experiment6_SpriteOutline/Code/Shaders/SpriteOutlineShader.shader)
 
+### Experiment_007 Lighting 
+
+![Lambertian Phong](media/exp007_lighting/lambertianPhongAll.gif)
+![Lambertian Phong Shader](media/exp007_lighting/lambertianPhongShader.png)
+\
+[See Full Lighting codes](Assets/Experiments/Experiment7_Lighting/Code/Shaders)
+
 
 
 
