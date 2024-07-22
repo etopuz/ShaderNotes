@@ -7,7 +7,9 @@ Shader "Unlit/LambertianPhong"
     }
     SubShader
     {
-        Tags { "RenderType"="Opaque" }
+        Tags { "RenderType"="Opaque"
+            "LightMode" = "ForwardBase"
+        }
 
         Pass
         {
@@ -50,19 +52,21 @@ Shader "Unlit/LambertianPhong"
             fixed4 frag (v2f i) : SV_Target
             {
                 fixed4 col = tex2D(_MainTex, i.uv);
+
                 
-                float3 normalDir = normalize(i.normal);
+                float3 normalDir = normalize(i.normal); // (!) We normalize the normals since interpolator will change their length and cause wierd effect
                 float3 lightDir = _WorldSpaceLightPos0.xyz;
                 float3 cameraDir = normalize(_WorldSpaceCameraPos - i.worldPos);
 
-                
+                // PHONG 
                 float3 reflected = reflect(-lightDir, normalDir);
                 float3 phongSpecular = saturate(dot(reflected, cameraDir));
+                phongSpecular = pow(phongSpecular, _Gloss); // (!) We adjust the sharpness of the specular based on the gloss
 
+                // LAMBERTIAN
                 float3 lambertian = saturate(dot(normalDir, lightDir));
 
-                phongSpecular = pow(phongSpecular, _Gloss);
-                
+                // PHONG + LAMBERTIAN
                 return float4(lambertian * _LightColor0 * col + phongSpecular.xxx, 1.0);
                 
                 return col;

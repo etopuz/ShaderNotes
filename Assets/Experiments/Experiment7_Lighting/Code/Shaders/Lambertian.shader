@@ -7,7 +7,9 @@ Shader "Unlit/Lambertian"
     SubShader
     {
         Tags { "RenderType"="Opaque" 
-            "LightMode" = "ForwardBase"}
+            "LightMode" = "ForwardBase"
+            
+        }
 
 
         Pass
