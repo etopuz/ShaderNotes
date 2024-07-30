@@ -84,6 +84,9 @@ Many thanks to the creators of these valuable sources.
 
 [See Full Fresnel Effect Shader Codes](Assets/Experiments/Experiment8_Fresnel/Code/Shaders/Fresnel.shader)
 
+\
+**Note**: This effect only works properly on rounded objects due to its nature. It is a popular technique used in many games.
+
 
 
 
