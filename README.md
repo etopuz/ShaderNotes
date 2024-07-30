@@ -76,6 +76,14 @@ Many thanks to the creators of these valuable sources.
 \
 **Note 3**: We used Tags{"LightMode" = "ForwardBase"} in code because we want to use Forward rendering. This rendering target is the default in Unity. See document [here](https://docs.unity3d.com/560/Documentation/Manual/SL-PassTags.html).
 
+### Experiment_008 Fresnel Effect
+
+![Fresnel Effect](media/exp008_fresnel/fresnel.gif)
+
+![Fresnel Shader](media/exp008_fresnel/fresnelCode.png)
+
+[See Full Fresnel Effect Shader Codes](Assets/Experiments/Experiment8_Fresnel/Code/Shaders/Fresnel.shader)
+
 
 
 
