@@ -8,6 +8,7 @@ Experiments and notes based on different sources. This page shows the effects an
 
 ## Assets
 - [FREE Animated Isometric Prototyping Hero by Engvee](https://engvee.itch.io/animated-isometric-prototyping-hero)
+- [Kenney's Prototype Textures](https://www.kenney.nl/assets/prototype-textures)
 
 Many thanks to the creators of these valuable sources.
 
