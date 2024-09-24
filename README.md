@@ -88,6 +88,14 @@ Many thanks to the creators of these valuable sources.
 \
 **Note**: This effect only works properly on rounded objects due to its nature. It is a popular technique used in many games.
 
+### Experiment_009 Gradient Effect
+
+![Gradient Effect](https://github.com/etopuz/ShaderNotes/blob/main/media/exp009_gradient_vertex/gradientVertex.gif)
+
+![Gradient Shader](https://github.com/etopuz/ShaderNotes/blob/main/media/exp009_gradient_vertex/vertexGradientCode.png)
+
+[See Full Gradient Effect Shader Codes](https://github.com/etopuz/ShaderNotes/blob/main/Assets/Experiments/Experiment9_Gradient/Code/Shaders/VertexGradient.shader)
+
 
 
 
