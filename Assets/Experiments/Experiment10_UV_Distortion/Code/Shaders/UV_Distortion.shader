@@ -43,7 +43,6 @@ Shader "Unlit/UV_Distortion"
                 v2f o;
                 o.vertex = UnityObjectToClipPos(v.vertex);
                 o.uv = TRANSFORM_TEX(v.uv, _MainTex);
-                UNITY_TRANSFER_FOG(o,o.vertex);
                 return o;
             }
 
@@ -52,7 +51,7 @@ Shader "Unlit/UV_Distortion"
                 float speed = _AnimationSpeed * _Time;
                 float2 distortion_uv = speed.xx + i.uv;
                 fixed2 distortion = (tex2D(_Noise, distortion_uv) * 2 - 1) * _DistortionStrength;
-                fixed4 col = tex2D(_MainTex, i.uv + distortion);
+                fixed4 col = tex2D(_MainTex, i.uv + distortion); // Distorts the main texture using animated noise.
                 return col;
             }
             ENDCG
