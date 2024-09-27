@@ -96,6 +96,14 @@ Many thanks to the creators of these valuable sources.
 
 [See Full Gradient Effect Shader Codes](https://github.com/etopuz/ShaderNotes/blob/main/Assets/Experiments/Experiment9_Gradient/Code/Shaders/VertexGradient.shader)
 
+### Experiment_010 UV Distortion Effect
+
+![UV Distortion Effect](https://github.com/etopuz/ShaderNotes/blob/main/media/exp010_uv_distortion/uv_distortion.gif)
+
+![UV Distortion Shader](https://github.com/etopuz/ShaderNotes/blob/main/media/exp010_uv_distortion/uv_distortion_code.png)
+
+[See Full UV Distortion Effect Shader Codes](https://github.com/etopuz/ShaderNotes/blob/main/Assets/Experiments/Experiment10_UV_Distortion/Code/Shaders/UV_Distortion.shader)
+
 
 
 
