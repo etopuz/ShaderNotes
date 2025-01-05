@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Unlit_RayMarchLavaLamp
+  m_Shader: {fileID: 4800000, guid: 44ca9a799055d6f4b982170435304135, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - BubbleScaleFactor: 1
+    - _BubbleScaleFactor: 0.1
+    m_Colors:
+    - Bubb: {r: 0.2, g: 0.6, b: 0.2, a: 1}
+    - BubbleMaxPos: {r: 0.2, g: 0.6, b: 0.2, a: 1}
+    - BubbleMinPos: {r: -0.2, g: 0.4, b: -0.2, a: 1}
+    - _BottomBubblePos: {r: 0, g: -1.68, b: 0, a: 1}
+    - _BottomColor: {r: 11.984315, g: 0.84616494, b: 0, a: 1}
+    - _BubbleMaxPos: {r: 0.2, g: 1.13, b: 0.2, a: 1}
+    - _BubbleMinPos: {r: -0.2, g: -1, b: -0.2, a: 1}
+    - _BubbleTestPos: {r: 0, g: 0.14, b: 0, a: 1}
+    - _Color: {r: 3.031433, g: 0.61001694, b: 0, a: 1}
+    - _FirstBubblePos: {r: 0, g: -1.52, b: 0, a: 1}
+    - _GradientYRange: {r: 0.385, g: 0.85, b: 0, a: 1}
+    - _MaxPos: {r: 0, g: 0, b: 0, a: 1}
+    - _MinPos: {r: 0, g: 0, b: 0, a: 1}
+    - _TopColor: {r: 2.9960785, g: 0, b: 0.028201384, a: 1}
+  m_BuildTextureStacks: []
