@@ -9,6 +9,7 @@ Experiments and notes based on different sources. This page shows the effects an
 ## Assets
 - [FREE Animated Isometric Prototyping Hero by Engvee](https://engvee.itch.io/animated-isometric-prototyping-hero)
 - [Kenney's Prototype Textures](https://www.kenney.nl/assets/prototype-textures)
+- [Lava Lamp Model by lauren.obj](https://sketchfab.com/3d-models/lava-lamp-482f9944e47d4084990605c356684407)
 
 Many thanks to the creators of these valuable sources.
 
